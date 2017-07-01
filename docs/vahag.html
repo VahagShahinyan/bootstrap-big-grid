@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Bootstrap Big Grid -- Larger Grid Dimensions for Bootstrap</title>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+<style type="text/css">
+    .table code {
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .responsive-utilities-test {
+        margin-top: 5px;
+    }
+    .responsive-utilities td.is-hidden {
+        color: #ccc;
+        background-color: #f9f9f9 !important;
+    }
+    .responsive-utilities td.is-visible {
+        color: #468847;
+        background-color: #dff0d8 !important;
+    }
+    .responsive-utilities-test .col-xs-12 {
+        margin-bottom: 10px;
+    }
+    .responsive-utilities-test span {
+        padding: 15px 10px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.1;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .visible-on .col-xs-12 .hidden-xlg,
+    .visible-on .col-xs-12 .hidden-fhd,
+    .visible-on .col-xs-12 .hidden-rt,
+    .visible-on .col-xs-12 .hidden-rt15,
+    .visible-on .col-xs-12 .hidden-uhd,
+    .visible-on .col-xs-12 .hidden-4k,
+    .visible-on .col-xs-12 .hidden-8k,
+    .hidden-on .col-xs-12 .hidden-xlg,
+    .hidden-on .col-xs-12 .hidden-fhd,
+    .hidden-on .col-xs-12 .hidden-rt,
+    .hidden-on .col-xs-12 .hidden-rt15,
+    .hidden-on .col-xs-12 .hidden-uhd,
+    .hidden-on .col-xs-12 .hidden-4k,
+    .hidden-on .col-xs-12 .hidden-8k {
+        color: #999;
+        border: 1px solid #ddd;
+    }
+    .visible-on .col-xs-12 .visible-xlg,
+    .visible-on .col-xs-12 .visible-fhd,
+    .visible-on .col-xs-12 .visible-rt,
+    .visible-on .col-xs-12 .visible-rt15,
+    .visible-on .col-xs-12 .visible-uhd,
+    .visible-on .col-xs-12 .visible-4k,
+    .visible-on .col-xs-12 .visible-8k,
+    .hidden-on .col-xs-12 .visible-xlg,
+    .hidden-on .col-xs-12 .visible-fhd,
+    .hidden-on .col-xs-12 .visible-rt,
+    .hidden-on .col-xs-12 .visible-rt15,
+    .hidden-on .col-xs-12 .visible-uhd,
+    .hidden-on .col-xs-12 .visible-4k,
+    .hidden-on .col-xs-12 .visible-8k {
+        color: #468847;
+        background-color: #dff0d8;
+        border: 1px solid #d6e9c6;
+    }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+        color: #777;
+        border-top: 1px solid #e5e5e5;
+    }
+    .footer-links {
+        margin: 10px 0;
+        padding-left: 0;
+    }
+    .footer-links li {
+        display: inline;
+        padding: 0 2px;
+    }
+    .footer-links li:first-child {
+        padding-left: 0;
+    }
+</style>
+<link rel="stylesheet" href="../dist/css/bootstrap-big-grid.min.css"/>
+</head>
+<body>
+
+<div class="container>">
+    <div class="row">
+        <div class="col-fhd-12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi assumenda dolore doloremque
+                enim, id iure nam natus neque numquam officiis, quaerat, quam rem sit suscipit totam ullam. Accusantium
+                animi assumenda cupiditate debitis dolores explicabo magnam neque quas quasi. Alias hic minima molestiae
+                possimus tempora temporibus vero voluptate! Adipisci aut consequatur culpa cumque, distinctio eius
+                explicabo, inventore ipsum maxime molestias voluptas voluptatum? Eligendi, iusto nam nisi quidem
+                recusandae tempore temporibus. Distinctio impedit, perspiciatis? Asperiores corporis dignissimos fugit
+                minus molestias mollitia nihil odio omnis veritatis? At doloremque dolores nam nemo quisquam sed
+                voluptates! Deleniti dolor, eius in nobis odio quo quos?</p>
+            <p>Accusantium cumque doloremque esse magni maiores natus non praesentium sint? Ab accusantium architecto
+                aut consequatur, cupiditate dolore facere impedit inventore ipsa itaque iure modi natus nihil provident
+                qui quos saepe tempora vero voluptatibus voluptatum! Accusantium architecto corporis dolorem eveniet
+                facere fugiat illum molestiae nobis placeat, quibusdam sunt ullam voluptatibus. Atque blanditiis et
+                nostrum quo quos soluta, suscipit! Consectetur eius fugiat id, iste itaque iusto maiores maxime nemo
+                pariatur quasi quos, sunt, totam veniam. Ad amet commodi doloremque, eos et facilis harum illum impedit
+                in incidunt, itaque magni maxime molestiae nam necessitatibus officia porro provident quo repellat
+                sapiente sed similique temporibus.</p>
+            <p>Animi delectus ducimus, ex expedita illum ipsum labore, laudantium nam officiis placeat quibusdam quis
+                quos rerum, sapiente sequi tempora voluptatum. Adipisci aperiam architecto asperiores atque, fugit,
+                harum, libero non praesentium quaerat quisquam soluta temporibus tenetur ullam vitae voluptatum. Ab
+                accusantium aspernatur autem dicta et expedita facere fugit harum impedit incidunt omnis provident quia
+                rem repellat rerum, sapiente tempora unde voluptatum? Amet asperiores atque blanditiis commodi
+                consequuntur corporis cum deleniti dignissimos dolor eum expedita incidunt ipsa ipsum iure labore
+                laboriosam modi nesciunt nihil nostrum odio officia, pariatur placeat praesentium quam quas qui quia
+                quibusdam reprehenderit soluta suscipit vel vero voluptas voluptatibus.</p>
+            <p>Aperiam eius inventore quas sit voluptates. Aliquid aperiam, dolore fuga harum ipsum labore nesciunt odio
+                officia quibusdam quisquam, quo ratione recusandae repudiandae sint veritatis! Amet asperiores debitis
+                doloribus illum quaerat repellat ullam. Ab alias aliquam autem beatae distinctio, ducimus esse et
+                exercitationem fugit labore magnam, molestiae officia, perferendis quaerat quam reiciendis velit! Ad
+                aspernatur blanditiis delectus deleniti distinctio dolor ducimus eaque hic in iusto laborum libero
+                maxime minus molestiae nostrum odit officia, porro praesentium quibusdam quis recusandae, reiciendis
+                reprehenderit sapiente sequi similique ut voluptatum. At consequuntur excepturi, expedita facere id,
+                illo impedit, molestias numquam perspiciatis qui quia quibusdam reprehenderit sit?</p>
+            <p>Ab doloribus ducimus expedita non quia rem voluptatem. Amet corporis dignissimos doloribus, illum in ipsa
+                laudantium nemo omnis quia quisquam quo, ratione rem, reprehenderit sequi suscipit? Asperiores dolor eos
+                est eveniet in iusto magni maiores quam quidem quos rem, ut vero, voluptatum! Ad adipisci, amet
+                aspernatur consequuntur deserunt ea, eligendi hic itaque mollitia necessitatibus pariatur quae quis
+                velit. Accusantium aut consequuntur cum delectus, deserunt dignissimos earum et fuga hic impedit, non
+                nostrum nulla obcaecati quae repellendus reprehenderit, saepe tempore temporibus. Assumenda dicta dolor
+                et ex fuga ipsa libero, minus molestias nam nemo nihil nostrum, possimus quibusdam rem repellat sequi
+                veritatis?</p>
+
+
+        </div>
+
+
+</div>
+
+</div>
+</body>
+</html>
